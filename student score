@@ -1,0 +1,19 @@
+using System;
+
+namespace averagescore
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double mark1 = 44;
+
+            double mark2 = 51;
+
+            double result = (mark1 + mark2) / 2;
+            Console.WriteLine("The average of both student scores {0}, {1}, is: {2} ",
+            mark1, mark2,  result);
+            Console.ReadLine();
+        }
+    }
+}
