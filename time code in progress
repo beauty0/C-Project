@@ -1,0 +1,27 @@
+using System;
+
+namespace currentsecond
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter the number of seconds: ");
+            int totalminute = int.Parse(Console.ReadLine());
+           
+
+
+
+            int minutes =  totalminute/ 60;
+            int second = totalminute % 60;
+            
+
+            Console.WriteLine($"{totalminute} second = {minutes} minutes and {second} second ");
+
+
+
+
+
+        }
+    }
+}
