@@ -1,0 +1,19 @@
+using System;
+
+namespace figure
+{
+	class MainClass
+	{
+		public static void Main (string[] args)
+		{
+			Console.WriteLine ("(^;^)");
+			Console.WriteLine ("|");
+			Console.WriteLine ("./ | \\.");
+			Console.WriteLine ("|");
+			Console.WriteLine ("_/ \\_");
+			Console.ReadLine ();
+
+
+		}
+	}
+}
