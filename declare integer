@@ -1,0 +1,17 @@
+using System;
+
+namespace twosuminterger.cs
+{
+	class MainClass
+	{
+		public static void Main (string[] args)
+		{
+			//declaring interger
+			int num1 = 10;
+			int num2 = 4;
+			int total = num1 + num2;
+			Console.WriteLine (total);
+			Console.ReadLine ();
+		}
+	}
+}
