@@ -1,0 +1,42 @@
+using System;
+
+namespace chesax
+{
+    class Program
+    {
+        static void Main(string[] args)
+
+        {
+			//input from user
+			Console.WriteLine("Enter Name :");
+			String personName = Console.ReadLine();
+
+			Console.WriteLine("Enter your age :");
+			int age = Convert.ToInt32(Console.ReadLine());
+			//
+			Console.WriteLine("Enter monthly wages before tax : ");
+			decimal yourGross = decimal.Parse(Console.ReadLine());
+
+			//using decimal for taxRate
+			decimal yourTaxRate = 0.25M;
+
+			decimal taxInEuros = (yourGross * yourTaxRate);
+
+			//output
+			Console.WriteLine("Name : {0}, Your are Aged: {1} years old......Your Tax Rate: is = %{2},  " +
+                "Tax Deduction from Wages  =  €{3}", personName, age, yourTaxRate, taxInEuros);
+
+			// removing tax from gross pay
+
+			decimal yourNetPay = (yourGross - taxInEuros);
+
+			//output
+
+			Console.WriteLine("Your Netpay €{0}", yourNetPay);
+
+			Console.ReadLine();
+
+
+		}
+	}
+}
