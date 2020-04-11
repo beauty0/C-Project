@@ -1,0 +1,24 @@
+using System;
+
+namespace incrementnumber
+{
+	class MainClass
+	{
+		public static void Main (string[] args)
+		{
+			Console.WriteLine ("Enter first number");
+			var num1 = int.Parse (Console.ReadLine ());
+			//increatment of num1
+			num1++;
+
+			Console.WriteLine ("Enter second number");
+			var num2 = int.Parse (Console.ReadLine ());
+
+			var total = num1 + num2;
+
+
+			Console.WriteLine ("Your total;" + total);
+			Console.ReadLine ();
+		}
+	}
+}
