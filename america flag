@@ -1,0 +1,20 @@
+using System;
+
+namespace AmericanFlag
+{
+	class MainClass
+	{
+		public static void Main (string[] args)
+		{
+			
+			Console.WriteLine ("*******----------------------------------");
+			Console.WriteLine ("*******----------------------------------");
+			Console.WriteLine ("*******----------------------------------");
+			Console.WriteLine ("*******----------------------------------");
+			Console.WriteLine ("------------------------------------------");
+			Console.WriteLine ("------------------------------------------");
+
+			Console.ReadLine ();
+		}
+	}
+}
