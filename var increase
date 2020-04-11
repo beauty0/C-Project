@@ -1,24 +1,28 @@
 using System;
 
-namespace incrementnumber
+namespace chesax
 {
-	class MainClass
-	{
-		public static void Main (string[] args)
-		{
-			Console.WriteLine ("Enter first number");
-			var num1 = int.Parse (Console.ReadLine ());
-			//increatment of num1
+    class Program
+    {
+        static void Main(string[] args)
+
+        {
+			//Write a program that prompts the user to enter two integers. The program then increments the first integer by 1 and calculates and displays the sum of the both.
+
+
+			Console.WriteLine("Enter first number");
+			var num1 = int.Parse(Console.ReadLine());
+			//increatment
 			num1++;
 
-			Console.WriteLine ("Enter second number");
-			var num2 = int.Parse (Console.ReadLine ());
+			Console.WriteLine("Enter second number");
+			var num2 = int.Parse(Console.ReadLine());
 
 			var total = num1 + num2;
 
 
-			Console.WriteLine ("Your total;" + total);
-			Console.ReadLine ();
+			Console.WriteLine("Your total;" + total);
+			Console.ReadLine();
 		}
-	}
+    }
 }
