@@ -1,0 +1,25 @@
+using System;
+
+namespace chesax
+{
+    class Program
+    {
+        static void Main(string[] args)
+
+        {
+			//The program inputs an integer from the keyboard to a variable called var.
+            //Write a statement to add 1 to var and display the new value of var. T
+            //he program inputs an integer from the keyboard to a variable called var.
+            //Write a statement to add 1 to var and display the new value of var. 
+
+			Console.WriteLine("Enter number");
+			var num1 = int.Parse(Console.ReadLine());
+			//increatment
+			num1++;
+
+
+			Console.WriteLine("Your total;{0}", num1);
+			Console.ReadLine();
+		}
+    }
+}
