@@ -1,0 +1,33 @@
+namespace justite
+{
+    class MainClass
+    {
+        public static void Main (string[] args)
+        {
+            //Write down the following expression in C# and display the result (4*3.5*x-2.5/2).
+            int x = 4 ;
+            double h = 3.5;
+            double y = - 2.5;
+            double z = 2;
+
+
+
+
+            double num1 = (x * h) * y / z ;
+            decimal num3 = Convert.ToDecimal(num1);
+
+
+
+            //double num2 = (y / z);
+
+
+        
+            
+
+            //double num = Convert.ToDouble (num1);
+            //int mum4 = (int)Convert.ToDouble(x)
+
+            Console.WriteLine ("{0}", num3);
+        }
+    }
+}
