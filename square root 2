@@ -1,0 +1,17 @@
+// C# program to illustrate the Math.Sqrt()  
+// method when the argument is double value 
+// with decimal places 
+using System; 
+  
+class GFG { 
+  
+    // Main Method 
+    public static void Main() 
+    { 
+        double x = 0.09; 
+  
+        // Input value with decimal places,  
+        // Output square root of x 
+        Console.Write(Math.Sqrt(x)); 
+    } 
+} 
