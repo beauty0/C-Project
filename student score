@@ -5,8 +5,8 @@ namespace averagescore
     class Program
     {
     //Two students take a C# exam, and their results are assigned to two variables: 
-int mark1 = 44;
-int mark2 = 51;
+//int mark1 = 44;
+//int mark2 = 51;
 
         static void Main(string[] args)
         {
