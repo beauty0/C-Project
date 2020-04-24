@@ -1,0 +1,24 @@
+using System;
+
+namespace playingaround
+{
+    class silly
+    {
+        static void Main(string[] args)
+        {
+            int num1 = 44;
+
+            if (num1 > 10)
+            {
+                Console.WriteLine("num1 is greater than");
+            }
+            else
+            {
+                Console.WriteLine("num1 is lesser than");
+                Console.ReadLine();
+
+            }
+
+
+        }
+    }
