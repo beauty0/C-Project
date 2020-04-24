@@ -14,7 +14,7 @@ namespace averagescore
 
             int mark2 = 51;
 
-            double result = (mark1 + mark2) / 2;
+            double result = (mark1 + mark2) / 2.0;
             Console.WriteLine("The average of both student scores {0}, {1}, is: {2} ",
             mark1, mark2,  result);
             Console.ReadLine();
