@@ -6,3 +6,4 @@ int b = 2;
 
 int c = a*b*b;
 Console Writeline("{0}", c);
+Console.Readline(); 
