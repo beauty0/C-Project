@@ -7,21 +7,25 @@ namespace chesax
         static void Main(string[] args)
 
         {
-			//Write a program that prompts the user to enter two integers. The program then increments the first integer by 1 and calculates and displays the sum of the both.
+			//Write a program that prompts the user to enter two integers. The program then increments the first 
+			//integer by 1 and calculates and displays the sum of the both.
+			
 
 
 			Console.WriteLine("Enter first number");
 			var num1 = int.Parse(Console.ReadLine());
-			//increatment
-			num1++;
+			
 
 			Console.WriteLine("Enter second number");
 			var num2 = int.Parse(Console.ReadLine());
+			
+			num1 = num1 + 1
 
-			var total = num1 + num2;
+			var num3 = num1 + num2;
+			
 
 
-			Console.WriteLine("Your total;" + total);
+			Console.WriteLine("Your total;" + num3);
 			Console.ReadLine();
 		}
     }
