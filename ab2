@@ -1,0 +1,8 @@
+//  Suppose a and  b are integers. 
+//Declare them as variables of type int, initialise them and write a C# expression for ab² to obtain a result
+
+int a = 1;
+int b = 2;
+
+int c = a*b*b;
+Console Writeline("{0}", c);
