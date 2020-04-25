@@ -1,0 +1,32 @@
+using System;
+using static System.Console;
+
+namespace newswitch
+{
+    class MainClass
+    {
+        public static void Main (string[] args)
+        {
+            //giving right to an some
+            int num1 = 23; int num2 = 12; int num3 = -78;
+
+            if (num1 > num2) {
+                if (num1 > num3) {
+                    Console.WriteLine ("the highest in 23");
+                } else {
+                    Console.WriteLine ("the highest number is the -78");
+                }
+            } 
+            else 
+            {
+                if (num2 > num3) {
+                    Console.WriteLine ("the highest number is 12");
+                } else
+                {
+                    Console.WriteLine ("the highest number is -78");
+                }
+            }
+
+        }
+    }
+}
