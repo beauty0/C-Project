@@ -1,0 +1,27 @@
+using System;
+
+namespace playingaround
+{
+    class noone
+    {
+        static void Main(string[] args)
+        {
+            int num1 = -56; int num2 = 25;
+
+           
+
+            if (num1 > 10 || num2 > 50)
+            {
+                Console.WriteLine("type this is great");
+            }
+            else
+            {
+                Console.WriteLine("num1 is greater than ");
+                Console.ReadLine();
+
+            }
+
+
+        }
+    }
+}
